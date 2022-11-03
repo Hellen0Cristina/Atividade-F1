@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: grey;
+}
+
+.container{
+    background-color: white;
+    margin: 0 auto;
+    width: 60%;
+    padding: 1%;
+ }
+
+ .principal{
+    background-image: url("fundo-f1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header img {
+    width: 100%;
+}
+
+h4{
+    background-image: url(bandeira1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-bottom: 2px solid grey;
+    border-left: 10px solid grey;
+    padding: 5px;
+}
+
+.mudancas p{
+    text-indent: 10%;
+    line-height: 1,5;
+}
+
+.pilotos td{
+    border-bottom: 1px dotted grey;
+    padding: 32px;
+}
+
+.equipes td{
+    border-bottom: 1px dotted grey;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color:goldenrod;
+    text-decoration: underline;
+}
+
+.topico-1 li {
+    list-style-type: none;
+}
+
+footer p{
+    text-indent: 10%;
+    line-height: 1,5;
+}
